@@ -1,4 +1,4 @@
-/**/
+/*Редактирован сегодня 29.09.2022*/
 .button {
 	line-height: 50%;
 	width: 200px;
@@ -1705,5 +1705,196 @@ font-weight: 400;
     .icon {
     	width: 39px;
     	height: 39px;
+    }
+}
+
+@media (max-width: 380px) {
+	.container {
+		min-width: 0px;
+		padding: 0px 11px;
+	}
+
+	.logo {
+		padding-right: 10px;
+	}
+
+	.info-block_title {
+		width: 100%;
+	}
+
+	.info-block_subtitle {
+		width: 100%;
+	}
+
+	.info-block_buttons__left,
+	.info-block_buttons__right {
+		width: 100%;
+	}
+
+	.slider {
+		width: 100%;
+	}
+
+	.slider-text {
+		width: 100%;
+	}
+
+	.slider_text {
+		width: 100%;
+	}
+
+	.slider_title {
+		width: 100%;
+		padding: 0px;
+		margin: 0 auto;
+	}
+
+	.slider_text__p {
+		margin-bottom: 5%;
+		word-wrap: break-word;
+		width: 100%;
+	}
+
+	.slider-images {
+		margin-top: 5%;
+		width: 100%;
+	}
+
+	.slider_img {
+		width: 100%;
+		height: auto;
+	}
+
+	.options {
+		grid-template-columns: auto auto;
+	}
+
+	.options,
+	.options__item {
+		width: 100%;
+	}
+
+	.online_contol {
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.online_contol__title {
+		text-align: center;
+	}
+
+	.video-block {
+		width: 100%;
+		margin-top: 0px;
+	}
+
+	.text_block {
+		width: 100%;
+	}
+
+	.sending {
+		width: 100%;
+	}
+
+    .text-field__input {
+    	width: 100%;
+    }
+
+    .text-field {
+    	width: 100%;
+    }
+
+    .text-field__buton {
+    	width: 100%;
+    }
+
+    .types_box {
+    	width: 100%;
+    }
+
+    .typex_box__title {
+    	text-align: center;
+    }
+
+    .item, .item img {
+    	width: 100%;
+    }
+
+    .item_options {
+    	width: 70%;
+    }
+
+    .item_options__ul {
+    	min-width: 70%;
+    	padding-left: 10%;
+    }
+
+    .item_options__title {
+    	width: 100%;
+    	padding-left: 0px;
+    	text-align: center;
+    }
+
+    .item_options__li {
+    	line-height: 120%;
+    }
+
+    .item_options__button {
+    	font-size: 11px;
+    	width: 90%;
+    	top: 90%;
+    }
+
+    .solutions__title {
+    	width: 100%;
+    }
+
+    .mobile-slider {
+    	width: 100%;
+    	top: calc(50% - 16px);
+    }
+
+    .penultimate {
+    	padding-bottom: 0px;
+    	display: block;
+    }
+
+    .questions {
+    	width: 100%;
+    }
+
+    .questions__margin{
+    	width: 100%;
+    }
+
+    .label_wrapper {
+    	width: 100%;
+    }
+
+    .questions__label {
+    	width: 100%;
+    }
+
+    .questions__title {
+    	text-align: center;
+    	width: 100%;
+    }
+
+    .questions__button {
+    	margin: 39px auto;
+    	padding: 0px;
+    	width: 100%;
+    }
+
+    .geo {
+    	width: 100%;
+    }
+
+    .geo__img {
+    	width: 100%;
+    }
+
+    .questions__title2 {
+    	width: 100%;
     }
 }
